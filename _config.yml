@@ -5,7 +5,7 @@ theme: jekyll-theme-slate
 
 nav:
   - title: "About Me"
-    url: /about-me/
+    url: /
   - title: "Design Posts"
     url: /design-posts/
   - title: "Data Sources and Project Ideas"
