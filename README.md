@@ -1,8 +1,4 @@
-# LJ Friedman's Portfolio
+# About Me
+Hi, I’m Lee James Friedman! I also go by LJ. I’m currently pursuing a degree in Computer Science with minors in Math and Psychology at Whitman College. Originally from the Bay Area in California, I’ve always been fascinated by the intersection of technology and creative expression.
 
-
-
-Choose a theme and create a basic readme.md file with your name and other basic information you'd want a prospective employer or grad school to see.
-Create a section titled "Data Sources and Project Ideas". Under that section, list five data sources with links, brief descriptions, and ideas you have for exploring/analyzing the data.
-Create a section titled "Where's Schueller?". Embed a "live" plotly visualization in your page from your recent analysis of my geolocation data.
-Do some kind of above and beyond element.
+As part of my academic pursuits, I’ve written several papers on various projects, which are available in the "Design Posts" tab. In the header, you can also find a few of my completed programming projects and other project ideas, and a small selection of my own photography and music compositions.
