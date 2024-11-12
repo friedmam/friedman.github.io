@@ -1,0 +1,123 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Home Page Styles */
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-content .about-me,
+.home-content .profile-pic {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.home-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Design Posts Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+/* Projects Page Styles */
+.project-template {
+    margin-bottom: 40px;
+}
+
+.project-template h3 {
+    margin-top: 0;
+}
+
+.project-template img,
+.project-template video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Photography Page Styles */
+.photos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.photos-grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Music Page Styles */
+.music-template {
+    margin-bottom: 40px;
+}
+
+.music-template h2 {
+    margin-top: 0;
+}
