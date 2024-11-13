@@ -103,15 +103,34 @@ nav a:hover {
 
 /* Photography Page Styles */
 .photos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+    display:grid;
+    gap:10px;
 }
 
-.photos-grid img {
+.photos-grid.vertical {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-bottom: 10px;
+}
+
+.photos-grid.vertical img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    aspect-ratio: 3 / 4;
 }
+
+.photos-grid.horizontal {
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    margin-bottom: 10px;
+}
+
+.photos-grid.horizontal img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+}
+
 
 /* Music Page Styles */
 .music-template {
