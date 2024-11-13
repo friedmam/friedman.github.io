@@ -54,17 +54,37 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Caption Styles */
+.caption {
+    text-align: center; 
+    font-size: 14px; 
+    color: #555;
+    margin-top: 5px;
+}
+
+.media-container {
+    display: inline-block; /* Makes the media (image/iframe) inline */
+    text-align: center; /* Centers the media itself */
+    margin: 20px; /* Adds some spacing around the media */
+}
+
 /* Home Page Styles */
 .home-content {
     display: flex;
     flex-wrap: wrap;
 }
 
-.home-content .about-me,
-.home-content .profile-pic {
+.home-content .about-me {
     flex: 1;
     min-width: 300px;
+    padding-right: 10px;
 }
+
+.home-content .profile-pic {
+    flex: 1;
+    min-width: 400px;
+}
+
 
 .home-content img {
     max-width: 100%;
@@ -113,8 +133,7 @@ nav a:hover {
 
 .projects-grid img {
     width: 100%; /* Ensures the image takes up the full width of its grid cell */
-    height: 200px; /* Fixed height for the images */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
+    object-fit: contain; /* cover vs contain? */
 }
 
 /* Photography Page Styles */
@@ -125,7 +144,7 @@ nav a:hover {
 }
 
 .photos-grid.vertical {
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin-bottom: 10px;
 }
 
