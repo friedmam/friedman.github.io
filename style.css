@@ -134,8 +134,9 @@ nav a:hover {
 .projects-grid {
     display: grid;
     gap: 10px;
-    width: 50%; /* You can change this value based on how wide you want the grid */
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Creates columns with a minimum size of 250px per item */
+    margin-left: 20px;
+    width: 40%; /* You can change this value based on how wide you want the grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates columns with a minimum size of 250px per item */
 }
 
 .projects-grid img {
