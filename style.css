@@ -14,7 +14,7 @@ body {
 }
 
 .alt-container {
-    width: 900%;
+    width: 90%;
     margin: 0 auto;
     padding: 0 0;
 }
@@ -151,24 +151,24 @@ nav a:hover {
 
 .photos-grid.vertical {
     width:100%;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin-bottom: 10px;
 }
 
 .photos-grid.vertical img {
-    width: 100%;
+    width: auto;
     height: auto;
     object-fit: cover;
 }
 
 .photos-grid.horizontal {
     width:100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin-bottom: 10px;
 }
 
 .photos-grid.horizontal img {
-    width: 100%;
+    width: auto;
     height: auto;
     object-fit: cover;
 }
