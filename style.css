@@ -127,7 +127,6 @@ nav a:hover {
     display: grid;
     gap: 10px;
     width: 50%; /* You can change this value based on how wide you want the grid */
-    margin: 0 auto; /* Centers the grid horizontally */
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates columns with a minimum size of 250px per item */
 }
 
