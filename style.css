@@ -13,12 +13,6 @@ body {
     padding: 15px 0;
 }
 
-.alt-container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0 0;
-}
-
 /* Header Styles */
 header {
     background-color: #94618E;
@@ -88,7 +82,7 @@ nav a:hover {
 
 .home-content .profile-pic {
     flex: 1;
-    min-width: 400px;
+    min-width: 500px;
     width: 60%;
 }
 
