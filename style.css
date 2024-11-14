@@ -164,34 +164,31 @@ nav a:hover {
 }
 
 /* Photography Page Styles */
-.photos-grid {
-    display:grid;
-    gap:10px;
-    width:inherit;
-}
-
+.photos-grid.horizontal,
 .photos-grid.vertical {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    margin-bottom: 10px;
-}
-
-.photos-grid.vertical img {
-    width: 100%;
-    height: auto;
-    object-fit: scale-down;
+    display: grid;
+    gap: 10px;
+    width: 100%; 
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .photos-grid.horizontal {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    margin-bottom: 10px;
 }
 
+.photos-grid.vertical {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.photos-grid.vertical img,
 .photos-grid.horizontal img {
     width: 100%;
     height: auto;
-    object-fit: scale-down;
+    object-fit: cover;
+    max-width: 100%;
 }
-
 
 /* Music Page Styles */
 .music-template {
