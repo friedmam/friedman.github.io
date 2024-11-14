@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F8EEE7;
+    color: #49274A;
 }
 
 .alt-color-section {
@@ -26,6 +27,17 @@ body {
     margin: 0 auto;
     padding: 15px 0;
 }
+
+/* Link Styles */
+a {
+    color: #94618E; /* Light purple for links */
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#49274A; /* Dark purple when highlighted */
+}
+
 
 /* Header Styles */
 header {
@@ -116,7 +128,7 @@ nav a:hover {
 .table td {
     text-align: left;
     padding: 10px;
-    border-bottom: 1px solid #49274A;
+    border-bottom: 1px solid #F4DECB;
 }
 
 .table th {
