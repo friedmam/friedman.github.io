@@ -11,14 +11,12 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 15px 0;
-    background-color: #F8EEE7;
 }
 
 .alt-container {
     width: 900%;
     margin: 0 auto;
     padding: 0 0;
-    background-color: #F4DECB;
 }
 
 /* Header Styles */
