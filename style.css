@@ -128,7 +128,7 @@ nav a:hover {
 .table td {
     text-align: left;
     padding: 10px;
-    border-bottom: 1px solid #F4DECB;
+    border-bottom: 1px solid #49274A;
 }
 
 .table th {
@@ -154,8 +154,8 @@ nav a:hover {
     display: grid;
     gap: 10px;
     margin-left: 20px;
-    width: 40%; /* You can change this value based on how wide you want the grid */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates columns with a minimum size of 250px per item */
+    width: 40%;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
 }
 
 .projects-grid img {
@@ -168,26 +168,22 @@ nav a:hover {
 .photos-grid.vertical {
     display: grid;
     gap: 10px;
-    width: 100%; 
-    max-width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
+    margin-left: 20px;
+    width: 40%;
 }
 
 .photos-grid.horizontal {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .photos-grid.vertical {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .photos-grid.vertical img,
 .photos-grid.horizontal img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    max-width: 100%;
+    object-fit: contain;
 }
 
 /* Music Page Styles */
