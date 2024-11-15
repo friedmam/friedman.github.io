@@ -164,11 +164,9 @@ nav a:hover {
 }
 
 /* Photography Page Styles */
-.photos-grid.horizontal,
-.photos-grid.vertical {
+.photos-grid {
     display: grid;
     gap: 10px;
-    margin-left: 20px;
     width: 40%;
 }
 
