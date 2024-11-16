@@ -173,10 +173,18 @@ nav a:hover {
 
 .photos-grid .vertical {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .photos-grid .horizontal {
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .photos-grid img {
