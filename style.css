@@ -168,8 +168,15 @@ nav a:hover {
     display: grid;
     gap: 20px;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     margin-bottom: 20px;
+}
+
+.photos-grid .vertical {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.photos-grid .horizontal {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
 }
 
 .photos-grid img {
