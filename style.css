@@ -177,7 +177,6 @@ nav a:hover {
     gap: 20px;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .photos-grid .horizontal {
@@ -186,7 +185,6 @@ nav a:hover {
     gap: 20px;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .photos-grid img {
