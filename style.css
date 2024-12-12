@@ -170,22 +170,15 @@ nav a:hover {
     display: grid;
     gap: 20px;
     width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .photos-grid .vertical {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    display: grid;
-    gap: 20px;
-    width: 100%;
-    height: auto;
+    aspect-ratio: 3/4;
 }
 
 .photos-grid .horizontal {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    display: grid;
-    gap: 20px;
-    width: 100%;
-    height: auto;
+    aspect-ratio: 4/3;
 }
 
 .photos-grid img {

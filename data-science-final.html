@@ -27,7 +27,78 @@
         <h1>Data Science Final Project</h1>
         <h3><a href="posts.html">&lt Back</a></h3>
         <p><a href="Final_Project_—_Happiness_Data.ipynb"></a>Access the Colab worksheet</a></p>
-
+        <h2>Deriving National Happiness</h2>
+        <p>By LJ Friedman and Rena Takahashi</p>
+        <p><strong>Introduction</strong></p>
+        <p>
+            We used multiple data sets for our analysis. Our main focus was on the 
+            <a href="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world">
+                List of Happiest Countries Rankings in 2024
+            </a> 
+            data (World Population Review), and we wanted to see how the following other data 
+            sets interacted with the happiest country rankings: 
+            <a href="https://worldpopulationreview.com/country-rankings/cost-of-living-by-country">
+                Cost of Living Rankings by Country in 2024
+            </a> 
+            (World Population Review); 
+            <a href="https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=1W">
+                Health Expenditure per Capita by Country in 2021
+            </a>, 
+            <a href="https://data.worldbank.org/indicator/AG.LND.PRCP.MM?most_recent_value_desc=true">
+                Average Annual Precipitation by Country in 2021
+            </a>, and the 
+            <a href="https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?most_recent_value_desc=true&view=map">
+                Percentage of Land Dedicated for Agriculture in 2021 
+            </a>
+            (World Bank Group). Using these data, we explored the question: What is the relationship between a 
+            country’s economic and natural resources, and the country’s overall happiness level? 
+        </p>
+        <p>
+            To answer this question, we looked at four resources of each country: cost of living, healthcare 
+            expenditure per capita, annual precipitation, and percentage of land occupied for agriculture. 
+            Agriculture and precipitation were used for a few reasons. While they are not directly tied to 
+            economics, they are indicators of whether or not the country’s land is used to stimulate the economy. 
+            Although everyone needs to eat, not everywhere can grow food. Access to agricultural land and water 
+            sources (such as rain) thus become crucial for supporting a population. But does the ability to generate 
+            a surplus of food impact how happy a country is? Or is the field of agriculture working against happiness?
+        </p>
+        <p>
+            Our approach to the data was to first examine the data on choropleth maps, to see if there were any 
+            interesting or notable geographical similarities or differences to explore. Then, we examined the 
+            relationships between happiness and our other variables using scatter and box plots, to determine if there 
+            was any relationship between them. We used four quartiles of happiness for the box plots, in a style 
+            reminiscent of 
+            <a href="https://earthbound.report/2018/11/14/the-four-levels-of-global-income/">
+                Hans Rosling’s four levels of wealth.
+            </a>
+        </p>
+        <p><strong>Data Preparation</strong></p>
+        <p>
+            We initially planned to work with the Youth Risk Behavior Surveillance System, but we were unable to find 
+            a simple way to convert the data into a comma-separated value (CSV) format. Because of this, we decided to 
+            pivot into using smaller more specialized datasets, and simply pull from multiple sources and sets to use 
+            for our data analysis.
+        </p>
+        <p>
+            When preparing the data, we first had to import the .csv files and load them in as dataframes. From there, 
+            we selected the columns that we were interested in, and combined them all from every data set into one 
+            dataframe that contained all of the information we were interested in. Then, we pulled from a 
+            <a href="https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json">
+                .json file on Github
+            </a>
+            to ensure we could create proper maps of the countries to visualize our data. Notably, some of the country 
+            names were inconsistent across data sets, and this was impacting our ability to merge the data together. 
+            To solve this, I created a list of mismatched country names, and converted the data set to use the .json’s 
+            country names, to ensure that we could visualize them.
+        </p>
+        <p>
+            There were also some issues where the datasets themselves had small issues, inclusions, or exclusions 
+            that were superfluous. Some data sets contained sovereign city-states (Monaco), which we opted to exclude
+            as they were not in the .json mapping data. There were also several countries that did not have recent data, 
+            but had older data, and in these cases we opted to use the most recent data possible (for instance, Syria 
+            was missing health expenditure data past 2012). This may have a small impact on our data analysis, although 
+            these are not a large number of countries.
+        </p>
     </div>
 </body>
 </html>
