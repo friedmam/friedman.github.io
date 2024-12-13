@@ -175,10 +175,16 @@ nav a:hover {
 
 .photos-grid .vertical {
     aspect-ratio: 3/4;
+    display: grid;
+    gap: 20px;
+    width: 100%;
 }
 
 .photos-grid .horizontal {
     aspect-ratio: 4/3;
+    display: grid;
+    gap: 20px;
+    width: 100%;
 }
 
 .photos-grid img {
