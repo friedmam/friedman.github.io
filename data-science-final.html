@@ -33,24 +33,24 @@
         <p>
             We used multiple data sets for our analysis. Our main focus was on the 
             <a href="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world" target="_blank" rel="noopener noreferrer">
-                List of Happiest Countries Rankings in 2024
+                List of Happiest Countries Rankings
             </a> 
-            data (World Population Review), and we wanted to see how the following other data 
+            data (World Population Review, 2024), and we wanted to see how the following other data 
             sets interacted with the happiest country rankings: 
             <a href="https://worldpopulationreview.com/country-rankings/cost-of-living-by-country" target="_blank" rel="noopener noreferrer">
-                Cost of Living Rankings by Country in 2024
+                Cost of Living Rankings by Country
             </a> 
-            (World Population Review); 
+            (World Population Review, 2024); 
             <a href="https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=1W" target="_blank" rel="noopener noreferrer">
-                Health Expenditure per Capita by Country in 2021
-            </a>, 
+                Health Expenditure per Capita by Country
+            </a> (World Health Organization, 2024), 
             <a href="https://data.worldbank.org/indicator/AG.LND.PRCP.MM?most_recent_value_desc=true" target="_blank" rel="noopener noreferrer">
                 Average Annual Precipitation by Country in 2021
             </a>, and the 
             <a href="https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?most_recent_value_desc=true&view=map" target="_blank" rel="noopener noreferrer">
                 Percentage of Land Dedicated for Agriculture in 2021 
             </a>
-            (World Bank Group). Using these data, we explored the question: What is the relationship between a 
+            (Food and Agriculture Organization, 2022). Using these data, we explored the question: What is the relationship between a 
             country’s economic and natural resources, and the country’s overall happiness level? 
         </p>
         <p>
@@ -69,8 +69,8 @@
             was any relationship between them. We used four quartiles of happiness for the box plots, in a style 
             reminiscent of 
             <a href="https://earthbound.report/2018/11/14/the-four-levels-of-global-income/" target="_blank" rel="noopener noreferrer">
-                Hans Rosling’s four levels of wealth.
-            </a>
+                Hans Rosling’s four levels of wealth
+            </a> (Rosling, 2019).
         </p>
         <p><strong>Data Preparation</strong></p>
         <p>
@@ -86,7 +86,7 @@
             <a href="https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json" target="_blank" rel="noopener noreferrer">
                 .json file on Github
             </a>
-            to ensure we could create proper maps of the countries to visualize our data. Notably, some of the country 
+            to ensure we could create proper maps of the countries to visualize our data (Johan, n.d.). Notably, some of the country 
             names were inconsistent across data sets, and this was impacting our ability to merge the data together. 
             To solve this, I created a list of mismatched country names, and converted the data set to use the .json’s 
             country names, to ensure that we could visualize them.
@@ -319,7 +319,7 @@
             countries in the top quartile of happiness jump down in precipitation again. There could be many 
             possible reasons for this; we know the happiness data is linked in part to GDP, and we have studied 
             that impacts of climate change have disproportionately impacted poorer countries (with lower GDP) 
-            (PBS). Possibly this extends to rainfall, or perhaps countries more impacted by climate change are 
+            (Borenstein, 2022). Possibly this extends to rainfall, or perhaps countries more impacted by climate change are 
             less happy.
         </p>
         <p>
@@ -374,6 +374,47 @@
             beneficial to expand the conclusions that can be drawn. Additionally, drawing from these data over time 
             and comparing them to countries’ happiness levels over time may also reveal information about how various 
             factors fluctuate in their influence on happiness levels.
+        </p>
+        <p><strong>References</strong></p>
+        <p>
+            Borenstein, S., & Costley, Drew (2022, Jul 22). Climate change caused by wealthy nations creates harm for 
+            poorer, study says. <em>PBS News</em>. 
+            <a href="https://www.pbs.org/newshour/science/climate-change-caused-by-wealthy-nations-creates-harm-for-poorer-study-says">
+                https://www.pbs.org/newshour/science/climate-change-caused-by-wealthy-nations-creates-harm-for-poorer-study-says
+            </a>
+        </p>
+        <p>
+            Food and Agriculture Organization (2022). Agricultural land (% of land area). <em>World Bank Group.</em>
+            <a href="https://data.worldbank.org/indicator/AG.LND.AGRI.ZS">https://data.worldbank.org/indicator/AG.LND.AGRI.ZS</a>
+        </p>
+        <p>
+            Food and Agriculture Organization (2022). Average precipitation in depth (mm per year). <em>World Bank Group.</em> 
+            <a href="https://data.worldbank.org/indicator/AG.LND.PRCP.MM">https://data.worldbank.org/indicator/AG.LND.PRCP.MM</a>
+        </p>
+        <p>
+            Johan. (n.d.). countries.geo.json [Data file]. <em>GitHub.</em>
+            <a href="https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json">
+                https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json
+            </a>
+        </p>
+        <p>
+            Rosling, H., Rosling, O., & Rönnlund, A. R. (2019). <em>Factfulness: ten reasons we’re wrong about the world - and why things are better than you think.</em> Sceptre.
+        </p>
+        <p>
+            World Health Organization Global Health Expenditure (2024). Current health expenditure per capita (current US$). <em>World Bank Group.</em>
+            <a href="https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD">https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD</a>
+        </p>
+        <p>
+            World Population Review (2024). Cost of Living by Country 2024. <em>World Population Review.</em>
+            <a href="https://worldpopulationreview.com/country-rankings/cost-of-living-by-country">
+                https://worldpopulationreview.com/country-rankings/cost-of-living-by-country
+            </a>
+        </p>
+        <p>
+            World Population Review (2024). Happiest Countries in the World 2024. <em>World Population Review.</em>
+            <a href="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-worldCost of Living by Country 2024"
+                https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-worldCost of Living by Country 2024
+            </a>
         </p>
     </div>
 </body>
