@@ -28,6 +28,10 @@ body {
     padding: 15px 0;
 }
 
+.width80{
+    width: 80%;
+}
+
 /* Link Styles */
 a {
     color: #754D71; /* Light purple for links */
