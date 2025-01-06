@@ -5,13 +5,13 @@ body {
     font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2; /* replace with f2f2f2 */
+    background-color: #f2f2f2; 
     color: #49274A;
 }
 
 .alt-color-section {
     width: 100%;
-    background-color: #cccccc; /* replace with cccccc */
+    background-color: #e0e0e0; /* replace with e0e0e0 */
     padding: 15px 0; 
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ body {
 
 /* Link Styles */
 a {
-    color: #967aa1; /* Light purple */
+    color: #693e6a; /* Medium purple */ 
     text-decoration: underline;
 }
 
@@ -83,7 +83,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #cccccc;
+    color: #e0e0e0;
     text-decoration: underline;
 }
 
